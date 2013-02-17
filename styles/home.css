@@ -1,0 +1,30 @@
+.navbar .container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+}
+.navbar .navbar-inner .nav {
+  float: right;
+}
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.navbar .navbar-inner .nav > li > a {
+  text-shadow: none;
+  padding: 13px 15px;
+  font-size: 16px;
+  color: #666;
+}
